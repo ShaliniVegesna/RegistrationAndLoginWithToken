@@ -1,6 +1,5 @@
 package com.InterceptorPractice.interceptor;
 
-import com.InterceptorPractice.service.LoginServiceImpl;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
