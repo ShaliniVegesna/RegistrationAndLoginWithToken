@@ -13,7 +13,7 @@ public class LoginController {
     @Autowired
     LoginService loginService;
     @PostMapping("/users/login")
-    public ResponseEntity<Object> login(@RequestBody User user) {
+    public ResponseEntity<?> login(@RequestBody User user) {
 
         return loginService.login(user);
     }
