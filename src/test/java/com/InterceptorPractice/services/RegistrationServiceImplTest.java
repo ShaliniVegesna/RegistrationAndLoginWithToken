@@ -1,4 +1,4 @@
-package com.InterceptorPractice;
+package com.InterceptorPractice.services;
 
 import com.InterceptorPractice.model.User;
 import com.InterceptorPractice.repository.RegistrationRepository;
